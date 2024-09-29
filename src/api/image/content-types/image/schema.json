@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "galleries",
+  "collectionName": "images",
   "info": {
-    "singularName": "gallery",
-    "pluralName": "galleries",
-    "displayName": "Gallery"
+    "singularName": "image",
+    "pluralName": "images",
+    "displayName": "Image"
   },
   "options": {
     "draftAndPublish": true
@@ -34,7 +34,16 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "index": {
+      "type": "integer",
+      "required": true,
+      "default": 1
     }
   }
 }
