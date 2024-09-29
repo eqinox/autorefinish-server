@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * gallery controller
+ * video controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::gallery.gallery');
+module.exports = createCoreController('api::video.video');
